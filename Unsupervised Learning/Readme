@@ -5,6 +5,7 @@ used for anomaly detection in NetFlow traffic using the CIDDS dataset.
 
 The best results are obtained with Autoencoders, the model is also saved as a .pkl file
 
-'muestra1.csv' is used to train and test all algorithms except for Autoencoders that needed one dataset for training (with no anomalies) and another dataset for testing (with anomalies)
+'muestra1.csv' is used to train and test all algorithms except for Autoencoders that needed one dataset for training (with no anomalies - train_CIDDS.csv) and another 
+dataset for testing (with anomalies - muestra1.csv)
 
-Autoencoders used 'train_CIDDS.csv' for training and muestra1.csv for testing 
+
