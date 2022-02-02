@@ -1,1 +1,9 @@
 Supervised Learning 
+
+El análisis supervisado se divide en 2 fases:
+
+- Clasificación Binaria
+- Clasificación Multiclase
+
+En cada fase se usan diversos algoritmos, se tunean y se entrenan modelos para luego evaluarlo en el dataset seleccionado. El mejor modelo luego se despliega con el uso de Plumber. 
+
