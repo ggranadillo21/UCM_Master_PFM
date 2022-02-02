@@ -1,1 +1,13 @@
 MultiClass Classification
+
+Considerando que el dataset tiene una columna que clasifica los ataques cuando el tráfico es maligno, en 
+
+(i) negación de servicio (dos), 
+
+(ii) fuerza bruta (bruteForce), 
+
+(iii) escaneo de puertos (portScan), y 
+
+(iv) escaneo de red (pingScan) 
+
+Hemos decidido explorar el análisis supervisado multiclase. 
