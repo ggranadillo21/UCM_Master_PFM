@@ -1,0 +1,11 @@
+Other Models
+This folder contains all models created for the binary classification using supervised learning techniques.
+
+Logistic Regression
+Neural Networks
+Gradient Boosting
+eXtreme Gradient Boosting
+Random Forest
+Support Vector Machine
+k-Nearest Neighbors
+Naïve Bayes
