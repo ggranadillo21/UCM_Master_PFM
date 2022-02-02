@@ -1,1 +1,14 @@
 Binary Classification
+
+Se han evaluado 8 algoritmos de clasificación binaria supervisada, resultando como ganador el de Random Forest, con resultados de Accuracy, Recall, Precision y F1-score por encima de 99.9%
+Los modelos han sido probados con todo el dataset (+31 Millones de observaciones) con los siguientes resultados
+
+Modelo	VP	FP	FN	VN	Accuracy	Precision	Recall	F1-Score
+LR	27.486.170	451.444	565.736	2.784.583	0.9675	0.9838	0.9798	0.9818
+NNET	28.014.392	468.968	37.514	2.767.059	0.9838	0.9835	0.9987	0.9910
+RF	28.030.675	29.312	21.231	3.206715	0.9984	0.9990	0.9992	0.9991
+GBM	28.028.887	68.923	23.019	3.167.104	0.9971	0.9975	0.9992	0.9984
+XGBM	28.026.051	46.655	25.855	3.189.372	0.9977	0.9983	0.9991	0.9987
+SVM	27.272.577	366.613	779.329	2.869.414	0.9634	0.9867	0.9722	0.9794
+KNN	27.920.149	2.353.599	131.757	882.428	0.9206	0.9223	0.9953	0.9574
+NB	27.922.964	483.397	128.942	2.752.630	0.9804	0.9830	0.9954	0.9892
